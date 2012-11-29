@@ -7,8 +7,8 @@ This is pretty much a clone of [Stoker4.0 prettyphoto mod](http://www.phpbb3bbco
 
 It also hase been made to automatically work and resize images that use the stock [IMG] bbcode.
 
-For attatchments you need to have already enabled the creation of thumbanils via the ACP.
+For attachments you need to have already enabled the creation of thumbanils via the ACP.
 
 General Tab:
 
-Attatchment Settings.
+Attachment Settings.
