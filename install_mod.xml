@@ -87,6 +87,13 @@ $(document).ready(function() {
 			buttons	: {}
 		}
 	});
+	$('a.fancybox-media').fancybox({
+		openEffect  : 'none',
+		closeEffect : 'none',
+		helpers : {
+			media : {}
+		}
+	});
 });
 </script>]]></action>
 			</edit>
