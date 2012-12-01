@@ -37,7 +37,7 @@ In its simplest form bbcodes take this format
 
 Youtube
 ```
-[youtubefb]{URL}[/youtubefb]`
+[youtubefb]{URL}[/youtubefb]
 ```
 ```
 <a class="fancybox-media" href="{URL}">{URL}</a>
