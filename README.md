@@ -13,7 +13,7 @@ General Tab:
 
 Attachment Settings.
 
-##Uniquie to this Version
+##Unique to this Version
 
 This Version of fancy box has a couple of small tweaks to the defaukt settings.
 
@@ -36,17 +36,18 @@ This mod also works with custom bbcodes.
 In its simplest form bbcodes take this format
 
 Youtube
-
-`[youtubefb]{URL}[/youtubefb]`
-
+```
+[youtubefb]{URL}[/youtubefb]`
+```
 ```
 <a class="fancybox-media" href="{URL}">{URL}</a>
 ```
 
 Vimeo
 
-`[vimoefb]{URL}[/vimoefb]`
-
+```
+[vimoefb]{URL}[/vimoefb]
+```
 ```
 <a class="fancybox-media" href="{URL}">{URL}</a>
 ```
@@ -54,17 +55,17 @@ Vimeo
 But for more advanced Youtube embed options this works
 
 Privacy, https, autoplay, no captions and more.
-
-`[youtubefb]{IDENTIFIER}[/youtubefb]`
-
+```
+[youtubefb]{IDENTIFIER}[/youtubefb]
+```
 ```
 <a class="fancybox-media" href="https://www.youtube-nocookie.com/embed/{IDENTIFIER}?autoplay=1&autohide=1&border=0&egm=0&showinfo=0&iv_load_policy=3">https://www.youtube.com/watch?v={IDENTIFIER}</a>
 ```
 
 Same as above but with a thumbnail
-
-`[youtubefbthumb]{IDENTIFIER}[/youtubefbthumb]`
-
+```
+[youtubefbthumb]{IDENTIFIER}[/youtubefbthumb]
+```
 ```
 <a class="fancybox-media" href="https://www.youtube-nocookie.com/embed/{IDENTIFIER}?autoplay=1&autohide=1&border=0&egm=0&showinfo=0&iv_load_policy=3"><img style="width: 100px; border:1px solid black;" src="http://i.ytimg.com/vi/{IDENTIFIER}/default.jpg" alt="YouTube" /></a>
 ```
