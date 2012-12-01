@@ -35,7 +35,9 @@ This mod also works with custom bbcodes.
 
 In its simplest form bbcodes take this format
 
-Youtube
+`<a class="fancybox-media" href=" "> </a>`
+
+**Youtube**
 ```
 [youtubefb]{URL}[/youtubefb]
 ```
@@ -43,7 +45,7 @@ Youtube
 <a class="fancybox-media" href="{URL}">{URL}</a>
 ```
 
-Vimeo
+**Vimeo**
 
 ```
 [vimoefb]{URL}[/vimoefb]
@@ -52,7 +54,7 @@ Vimeo
 <a class="fancybox-media" href="{URL}">{URL}</a>
 ```
 
-But for more advanced Youtube embed options this works
+**But for more advanced Youtube embed options these work**
 
 Privacy, https, autoplay, no captions and more.
 ```
