@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="modx.prosilver.en.xsl"?>
 <!--NOTICE: Please open this file in your web browser. If presented with a security warning, you may safely tell it to allow the blocked content.-->
 <!--For security purposes, please check: http://www.phpbb.com/mods/ for the latest version of this MOD.\nAlthough MODs are checked before being allowed in the MODs Database there is no guarantee that there are no security problems within the MOD.\nNo support will be given for MODs not found within the MODs Database which can be found at http://www.phpbb.com/mods/-->
-<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.phpbb.com/mods/xml/modx-1.2.5.xsd">
+<mod xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://www.phpbb.com/mods/xml/modx-1.2.6.xsd">
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
@@ -70,13 +70,13 @@ bbcodes for videos and extra]]></description>
 				<action type="after-add"><![CDATA[<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" ></script>
 <!-- Fancybox 2 starts here -->
 <script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
-<script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.fancybox.js?v=2.1.3"></script>
-<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/jquery.fancybox.css?v=2.1.2" media="screen" />
-<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
-<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
-<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
-<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
-<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script>
+<script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.fancybox.js"></script>
+<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/jquery.fancybox.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-buttons.css" />
+<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-buttons.js"></script>
+<link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-thumbs.css" />
+<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-thumbs.js"></script>
+<script type="text/javascript" src="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-media.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 	$("a.fancybox").fancybox({
