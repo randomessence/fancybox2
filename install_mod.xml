@@ -6,7 +6,7 @@
 	<header>
 		<meta name="generator" content="MODX file generated with PP MODX Creator by tumba25 (online version)"/>
 		<license><![CDATA[http://opensource.org/licenses/gpl-license.php GNU General Public License v2]]></license>
-		<title lang="en"><![CDATA[Fancybox 2]]></title>
+		<title lang="en"><![CDATA[Fancybox 2 lightbox]]></title>
 		<description lang="en"><![CDATA[Makes attached images open in a nice popup layer. Large images fits screen (resized) with option to view fullsize.
 
 
@@ -25,7 +25,7 @@ bbcodes for videos and extra]]></description>
 				<username><![CDATA[randomessence]]></username>
 			</author>
 		</author-group>
-		<mod-version>1.0.1</mod-version>
+		<mod-version>1.0.2</mod-version>
 		<installation>
 			<level>easy</level>
 			<time>120</time>
@@ -33,11 +33,18 @@ bbcodes for videos and extra]]></description>
 		</installation>
 		<history>
 			<entry>
-				<date>2011-05-16</date>
+				<date>2012-05-16</date>
 				<rev-version>1.0.0</rev-version>
 				<changelog lang="en">
 					<change><![CDATA[Stole Stokers idea.]]></change>
 					<change><![CDATA[then made it awesomer using fancybox 2]]></change>
+				</changelog>
+			</entry>
+			<entry>
+				<date>2013-06-14</date>
+				<rev-version>1.0.1</rev-version>
+				<changelog lang="en">
+					<change><![CDATA[fancybox 2.1.5 and mousehwheel 3.1.3]]></change>
 				</changelog>
 			</entry>
 		</history>
@@ -69,7 +76,7 @@ bbcodes for videos and extra]]></description>
 				<find><![CDATA[<script type="text/javascript" src="{T_SUPER_TEMPLATE_PATH}/forum_fn.js"></script>]]></find>
 				<action type="after-add"><![CDATA[<script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" ></script>
 <!-- Fancybox 2 starts here -->
-<script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="{ROOT_PATH}js/fancybox/jquery.fancybox.js"></script>
 <link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/jquery.fancybox.css" media="screen" />
 <link rel="stylesheet" type="text/css" href="{ROOT_PATH}js/fancybox/helpers/jquery.fancybox-buttons.css" />
